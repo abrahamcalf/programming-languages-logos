@@ -19,13 +19,13 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/abrahamcalf/programming-languages-logos/actions"><img src="https://github.com/abrhaamcalf/programming-languages-logos/workflows/publish/badge.svg" /></a>
-    <a href="https://github.com/abrhaamcalf/programming-languages-logos"><img src="https://img.shields.io/npm/v/programming-languages-logos.svg?logo=npm" /></a>
-	<a href="https://github.com/abrhaamcalf/programming-languages-logos/blob/master/license"><img src="https://img.shields.io/github/license/abrhaamcalf/programming-languages-logos.svg" /></a>
-    <a href="https://github.com/abrhaamcalf/programming-languages-logos"><img src="https://img.shields.io/github/repo-size/abrhaamcalf/programming-languages-logos.svg?logo=github"></a>
+    <a href="https://github.com/abrahamcalf/programming-languages-logos/actions"><img src="https://github.com/abranhe/programming-languages-logos/workflows/publish/badge.svg" /></a>
+    <a href="https://github.com/abranhe/programming-languages-logos"><img src="https://img.shields.io/npm/v/programming-languages-logos.svg?logo=npm" /></a>
+	<a href="https://github.com/abranhe/programming-languages-logos/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/programming-languages-logos.svg" /></a>
+    <a href="https://github.com/abranhe/programming-languages-logos"><img src="https://img.shields.io/github/repo-size/abranhe/programming-languages-logos.svg?logo=github"></a>
     <br>
     <br>
-    <b><a href="https://github.com/abrhaamcalf/react-pll">Using React?</a></b>
+    <b><a href="https://github.com/abranhe/react-pll">Using React?</a></b>
     <br>
 </p>
 
