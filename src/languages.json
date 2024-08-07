@@ -15,6 +15,7 @@
   "python": "python",
   "r": "r",
   "ruby": "ruby",
+  "rust": "rust",
   "swift": "swift",
   "typescript": "typescript"
 }

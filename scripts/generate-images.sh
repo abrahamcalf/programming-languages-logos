@@ -58,9 +58,7 @@ generate_preview_gif() {
 
     # If so, regenerate the preview GIF.
 
-    convert -background white \
-            -alpha remove \
-            -delay 30 \
+    magick  -delay 30 \
             -loop 0 \
             $2 \
             "$3" \
@@ -93,7 +91,7 @@ generate_different_sized_images() {
 
     for imageSize in "${IMAGE_SIZES[@]}"; do
 
-        convert "$path/$basename.png" \
+        magick "$path/$basename.png" \
                 $CONVERT_BASE_OPTIONS \
                 -resize "$imageSize" \
                 "$path/${basename}_$imageSize.png" \
@@ -136,7 +134,7 @@ generate_group_image() {
         tmp+=("src/$i/$i.png")
     done
 
-    convert "${tmp[@]}" \
+    magick "${tmp[@]}" \
             $CONVERT_BASE_OPTIONS \
             -resize 512x512 \
             -extent 562x562 \
@@ -159,11 +157,11 @@ main() {
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-    # Check if ImageMagick's `convert`
+    # Check if ImageMagick's `magick`
     # command-line tool is available.
 
-    if ! cmd_exists "convert"; then
-        print_error "Please install ImageMagick's 'convert' command-line tool!"
+    if ! cmd_exists "magick"; then
+        print_error "Please install ImageMagick's 'magick' command-line tool!"
         return 1
     fi
 
